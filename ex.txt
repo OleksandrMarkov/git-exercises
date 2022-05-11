@@ -1,0 +1,10 @@
+GIT GET STARTED:
+
+1. Insert the missing part of the command to check which version of Git (if any) is installed.
+git --version
+
+2. Initialize Git on the current folder:
+git init
+
+3. Set the user name for the current repository to "w3schools-test":
+git config user.name "w3schools-test"
