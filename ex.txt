@@ -8,3 +8,38 @@ git init
 
 3. Set the user name for the current repository to "w3schools-test":
 git config user.name "w3schools-test"
+
+GIT NEW FILES:
+
+1. Check the status of the Git:
+git status
+
+GIT STAGING ENVIRONMENT:
+
+1. Add index.html to the Staging Enviornment:
+git add index.html
+
+2. Stage all new, modified, and deleted files. Use the shorthand command:
+git add -A or git add --all
+
+GIT COMMIT:
+
+1. Commit the changes to the current repository with the message "First release!"
+git commit -m "First release!"
+
+2. Check the compact version of the status for repository:
+git status --short
+
+3. Commit the updated files directly, skipping the staging environment:
+git commit -a -m "New line added"
+
+4. View the history of commits for the repository:
+git log
+
+GIT HELP:
+
+1. Show the possible options for the status command in command line:
+git status --help
+
+2. Show all git possible commands in command line:
+git help --all
