@@ -83,3 +83,16 @@ git merge origin/master
 
 4. Update the current branch from its origin using a single command:
 git pull origin
+
+GIT PUSH TO REMOTE
+
+1. push the current branch to its default remote origin:
+git push origin
+
+GIT PULL BRANCH FROM REMOTE
+
+1. List all local and remote branches of the current Git.
+git branch -a
+
+2. List only remote branches of the current Git.
+git branch -r
