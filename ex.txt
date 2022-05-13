@@ -65,3 +65,21 @@ git merge hello-you
 
 2. Remove the hello-you branch from the local repository:
 git branch -d hello-you
+
+GIT REMOTE GET STARTED
+
+1. Add a remote repository as an origin:
+git remote add origin https://github.com/x/y.git
+
+GIT PULL FROM REMOTE
+
+1. pull is combination of fetch and then merge
+
+2. Get all the change history of the origin for this branch:
+git fetch origin
+
+3. Merge the current branch with the branch master, on origin:
+git merge origin/master
+
+4. Update the current branch from its origin using a single command:
+git pull origin
