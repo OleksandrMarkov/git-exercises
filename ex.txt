@@ -43,3 +43,25 @@ git status --help
 
 2. Show all git possible commands in command line:
 git help --all
+
+GIT BRANCH:
+
+1. Create a new branch called hello-world-images:
+git branch hello-world-images
+
+2. List the existing branches:
+git branch
+
+3. Move to the hello-world-images branch:
+git checkout hello-world-images
+
+4. Create, and move to a new branch with the name hello-you:
+git checkout -b hello-you
+
+GIT BRANCH MERGE:
+
+1. Merge the hello-you branch with the current branch:
+git merge hello-you
+
+2. Remove the hello-you branch from the local repository:
+git branch -d hello-you
